@@ -1,4 +1,4 @@
-package com.elifintizam.dto;
+package com.elifintizam.business.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

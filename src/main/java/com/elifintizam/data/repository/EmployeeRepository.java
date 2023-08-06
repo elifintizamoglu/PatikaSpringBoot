@@ -1,4 +1,4 @@
-package com.elifintizam.repository;
+package com.elifintizam.data.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

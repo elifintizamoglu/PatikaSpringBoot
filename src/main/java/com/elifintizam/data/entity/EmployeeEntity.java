@@ -1,4 +1,4 @@
-package com.elifintizam.entity;
+package com.elifintizam.data.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
