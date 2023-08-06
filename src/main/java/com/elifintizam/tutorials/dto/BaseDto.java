@@ -1,4 +1,4 @@
-package com.elifintizam.dto;
+package com.elifintizam.tutorials.dto;
  import java.util.Date;
 
 public class BaseDto {

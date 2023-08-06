@@ -1,6 +1,6 @@
-package com.elifintizam.bean;
+package com.elifintizam.tutorials.bean;
 
-import com.elifintizam.dto.BeanDto;
+import com.elifintizam.tutorials.dto.BeanDto;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;

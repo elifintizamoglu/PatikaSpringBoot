@@ -1,6 +1,6 @@
-package com.elifintizam.controller;
+package com.elifintizam.tutorials.controller;
 
-import com.elifintizam.bean.BeanConfig;
+import com.elifintizam.tutorials.bean.BeanConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

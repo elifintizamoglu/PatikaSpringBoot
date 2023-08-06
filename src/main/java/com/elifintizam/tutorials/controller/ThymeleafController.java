@@ -1,6 +1,6 @@
-package com.elifintizam.controller;
+package com.elifintizam.tutorials.controller;
 
-import com.elifintizam.dto.ProductDto;
+import com.elifintizam.tutorials.dto.ProductDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

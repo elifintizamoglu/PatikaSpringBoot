@@ -1,6 +1,6 @@
-package com.elifintizam.controller;
+package com.elifintizam.tutorials.controller;
 
-import com.elifintizam.dto.TeacherDto;
+import com.elifintizam.tutorials.dto.TeacherDto;
 import jakarta.validation.Valid;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Controller;
