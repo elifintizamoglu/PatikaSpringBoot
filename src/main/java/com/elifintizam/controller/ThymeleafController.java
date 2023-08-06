@@ -4,12 +4,20 @@ import com.elifintizam.dto.ProductDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Controller
 public class ThymeleafController {
+
+    // optional : root {}
+    // http://localhost:8080
+    @GetMapping({"/","index"})
+    public String index(){
+        return "index";
+    }
 
     // ResponseBody
     // http://localhost:8080/thymeleaf1
@@ -76,5 +84,14 @@ public class ThymeleafController {
         model.addAttribute("product_list", myList);
 
         return "thymeleaf6";
+    }
+
+    // Send Model Object
+    // http://localhost:8080/thymeleaf7/
+    @GetMapping({"/thymeleaf7/{id}","/thymeleaf7"})
+    public String getThymeleaf7ModelObject(Model model, @PathVariable(name="id" , required = false) Long id) {
+        model.addAttribute("key_model1", "id: " + id);
+
+        return "thymeleaf7";
     }
 }
